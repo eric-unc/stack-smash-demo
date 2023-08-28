@@ -8,8 +8,6 @@ void function(){
     uint64_t *ret;
 
     ret = &buffer[5];
-    //printf("buffer: %p\n", buffer);
-    //printf("ret: %p\n", ret);
     *ret += 7; // why 7?
 }
 
